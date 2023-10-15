@@ -43,7 +43,17 @@ Redis
 |------|---|
 |강대명|https://github.com/charsyam|
 |우지원|https://github.com/Jiwon-Woo|
+|최장호|https://github.com/cjho0316|
+|정지연|https://github.com/sanananan3|
+|황시연|https://github.com/lowgiant|
+|김민수|https://github.com/munis-kim|
+|김현희|https://github.com/su-mmer|
+|한종우|https://github.com/jwowo|
+|박신형|https://github.com/ShinHyeong|
+|정종운|https://github.com/skeep194|
+|이경훈|https://github.com/pongdangx2|
+|조은일|https://github.com/JoEunil|
+|정종은|https://github.com/withbeth|
 |이장훈|https://github.com/jangh-lee|
-
 
 
