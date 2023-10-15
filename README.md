@@ -54,4 +54,6 @@ Redis
 |이경훈|https://github.com/pongdangx2|
 |조은일|https://github.com/JoEunil|
 |정종은|https://github.com/withbeth|
+|이장훈|https://github.com/jangh-lee|
+
 
