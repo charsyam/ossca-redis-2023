@@ -1,4 +1,4 @@
-for i = 0, #arg do
+for i = 0,table.getn(arg) do
     if i == 0 then
         print(i, arg[i])
     else
