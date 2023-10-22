@@ -155,6 +155,10 @@ start_server {tags {"cli"}} {
         }
     }
 
+    test_interactive_cli "Echo message" {
+        assert_equal "\"hello-redis\"" [run_command $fd "echoversion2 hello-redis"]
+    }
+
     test_interactive_cli "Status reply" {
         assert_equal "OK" [run_command $fd "set key foo"]
     }
