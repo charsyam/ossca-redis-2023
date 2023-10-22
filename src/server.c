@@ -4546,6 +4546,12 @@ void echosummerCommand(client *c) {
     addReplyBulk(c,c->argv[1]);
 }
 
+void echoSiYeonCommand(client *c) {
+    sds prefixSYtoEcho = sdscatprintf(sdsempty(), "SY%s", (char *)c->argv[1]->ptr);
+    addReplyBulkCBuffer(c, prefixSYtoEcho, sdslen(prefixSYtoEcho));
+    sdsfree(prefixSYtoEcho);
+}
+
 void timeCommand(client *c) {
     addReplyArrayLen(c,2);
     addReplyBulkLongLong(c, server.unixtime);
