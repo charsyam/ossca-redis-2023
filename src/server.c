@@ -4542,6 +4542,14 @@ void echoCommand(client *c) {
     addReplyBulk(c,c->argv[1]);
 }
 
+<<<<<<< HEAD
+void echoJongunCommand(client *c) {
+=======
+void echosummerCommand(client *c) {
+>>>>>>> main
+    addReplyBulk(c,c->argv[1]);
+}
+
 void timeCommand(client *c) {
     addReplyArrayLen(c,2);
     addReplyBulkLongLong(c, server.unixtime);
