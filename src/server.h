@@ -3435,11 +3435,9 @@ char *redisBuildIdString(void);
 void authCommand(client *c);
 void pingCommand(client *c);
 void echoCommand(client *c);
-<<<<<<< HEAD
 void echoJongunCommand(client *c);
-=======
 void echosummerCommand(client *c);
->>>>>>> main
+void echominwookCommand(client *c);
 void commandCommand(client *c);
 void commandCountCommand(client *c);
 void commandListCommand(client *c);
