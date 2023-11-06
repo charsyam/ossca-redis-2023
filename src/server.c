@@ -4543,6 +4543,7 @@ void echoCommand(client *c) {
 }
 
 void echoJiwonCommand(client *c) {
+    c->argv[1]->ptr = sdscatfmt(sdsempty(), "echoJiwon_%S", c->argv[1]->ptr);
     addReplyBulk(c,c->argv[1]);
 }
 
